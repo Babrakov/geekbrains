@@ -9,7 +9,7 @@ function sumPow(x, y)
         return "Аргументы не удовлетворяют условию задачи!";
     };
     var result=0;
-    for (i=1;i<=x;i++){
+    for (var i=1;i<=x;i++){
         result += pow(i,y);
     }
     return result;
