@@ -1,5 +1,5 @@
-var n=Number(process.argv[2]);
-var e=Number(process.argv[3]);
+n=Number(process.argv[2]);
+e=Number(process.argv[3]);
 
 console.log(sumPow(n,e));
 
