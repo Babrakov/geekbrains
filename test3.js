@@ -1,7 +1,7 @@
 var t1=Number(process.argv[2]);
 var t2=Number(process.argv[3]);
 
-console.log(sumTime(t1,t2));
+process.stdout.write(sumTime(t1,t2));
 
 function sumTime (x,y)
 {
