@@ -1,5 +1,5 @@
 var str=process.argv[2];
-var shift=Number(process.argv[3]);
+var shift=parseInt(process.argv[3]);
 process.stdout.write(caesarShift(str,shift));
 
 function caesarShift(str, amount) 

@@ -1,5 +1,5 @@
-var t1=Number(process.argv[2]);
-var t2=Number(process.argv[3]);
+var t1=parseInt(process.argv[2]);
+var t2=parseInt(process.argv[3]);
 
 process.stdout.write(sumTime(t1,t2));
 
@@ -21,7 +21,6 @@ function sumTime (x,y)
     
     for (var i = 0; i < (secIn.length - 1); i++){
         var fullNum = secIn[i] * remainder / secIn[i + 1];
-        // var num = Math.floor(fullNum);
         var num = parseInt(fullNum);
         var timeName = selectTimeName(num, timeNames[i]);
         remainder = fullNum - num;
